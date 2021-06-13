@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    display: flex;
+    width:100vw;
+    height:95vh;
+}
+.container2{
+    display:flex;
+    justify-content: center;
+}
+.image{
+    display:flex;
+    width:30vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 90px;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    height:10vh;
+    width: 10vw;
+    align-items: center;
+}
+.image .img{
+    background-image: url(../images/Scarecrow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:539.22px;
+    height: 447.43px;
+}
+
+.image h3{
+    width:133px;
+    height:25px;
+    left:77px;
+    top:40px;
+    font-weight: 700;
+    font-family: Inconsolata;
+    text-transform: uppercase;
+}
+
+.notfound{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.notfound .heading{
+    padding-bottom: 65px;
+    width:586px;
+    font-family:"Space Mono";
+    font-weight: bolder;
+    font-size: 34px;
+    letter-spacing: -0.05em;
+    font-style: normal;
+    line-height: 2em;
+}
+.para{
+    padding-bottom:60px;
+    width:381px;
+    height:108px;
+    font-family: "Space Mono";
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: -0.03em;
+    font-style: normal;
+}
+.link a{
+    text-transform: uppercase;
+    color:white;
+    font-family: "Space Mono";
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: -0.03em;
+    top:687px;
+    left:783px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:216px;
+    height:68px;
+    background-color: #333333;
+}
+
+.name{
+    width:350px;
+    height:17px;
+    font-family: "Space Mono";
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    font-size: 14px;
+    line-height: 17.07px;
+    text-align: center;
+}
+
+@media screen and (max-width:375px){
+    .container{
+        flex-direction: column;
+    }
+    .four{
+        width:50vw;
+    }
+    .image{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100vw;
+    }
+    .image .img{
+        margin-right: 0;
+        width: 286px;
+        height:238px;
+    }
+    .notfound{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .heading h1{
+        width:350px;
+        height:142px;
+        font-family: "Space Mono";
+        font-style: normal;
+        font-size: 48px;
+    }
+    .para{
+        font-size: 18px;
+        width: 328px;
+        height: 81px;
+    }
+}
